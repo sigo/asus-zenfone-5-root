@@ -21,7 +21,9 @@ I don't have time for develop scripts for other systems, but you can root your p
 
 Enable USB debugging mode in your phone. Connect your phone with computer. Open terminal in `asus-zenfone-5-root` directory.
 
-adb reboot bootloader
+Reboot to bootloader
+
+    adb reboot bootloader
 
 Unlock fastboot
 
