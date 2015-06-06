@@ -3,6 +3,7 @@
 echo "Connect your phone with computer and prepare to root"
 echo "USB debugging mode must be enabled"
 echo "Do not disconnect USB cable while rooting"
+echo "Whole process can take up to 10 minutes, please be patient"
 
 cd $(dirname "${0}")
 
