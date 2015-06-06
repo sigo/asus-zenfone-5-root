@@ -46,6 +46,8 @@ Restore vanilla files
     fastboot flash ifwi files/vanilla/ifwi_ctp_a500cg.bin
     fastboot reboot
 
+All done, enjoy your rooted phone.
+
 ## Authors
 
 - Mateusz Jagiełło (http://sigo.pl)
