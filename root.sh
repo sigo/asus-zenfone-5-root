@@ -1,5 +1,9 @@
 #!/bin/bash
 
+echo "Connect your phone with computer and prepare to root"
+echo "USB debugging mode must be enabled"
+echo "Do not disconnect USB cable while rooting"
+
 cd $(dirname "${0}")
 
 adb wait-for-devices
