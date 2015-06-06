@@ -44,3 +44,6 @@ fastboot flash dnx files/vanilla/dnx_fwr_ctp_a500cg.bin
 fastboot flash ifwi files/vanilla/ifwi_ctp_a500cg.bin
 fastboot reboot
 echo "--- end log ---"
+
+echo
+echo "All done, enjoy your rooted phone"
