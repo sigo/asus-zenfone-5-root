@@ -8,8 +8,8 @@ Little script, which will root your ASUS Zenfone 5.
 
 ## Requirements
 
-    adb
-    fastboot
+- adb
+- fastboot
 
 ## Usage for linux
 
