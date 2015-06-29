@@ -19,7 +19,7 @@ If you're on linux, run `root.sh` script and follow instructions.
 
 I don't have time for develop scripts for other systems, but you can root your phone manually.
 
-1. Download [the rooting script](https://github.com/sigo/asus-zenfone-5-root/archive/master.zip).
+1. Download [the rooting script](https://github.com/sigo/asus-zenfone-5-root/archive/master.zip) (about 53.4MiB).
 2. Extract downloaded package.
 3. Enable USB debugging mode in your phone.
 4. Connect your phone with computer.
