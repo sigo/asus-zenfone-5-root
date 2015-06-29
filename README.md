@@ -4,7 +4,7 @@ Little script, which will root your ASUS Zenfone 5.
 
 ## Tested devices
 
-- ASUS Zenfone 5 (T00F/T00J) with WW-2.22.40.54 firmware
+- ASUS Zenfone 5 (T00F/T00J) with official WW-2.22.40.54 firmware
 
 ## Data safety
 
