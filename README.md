@@ -6,6 +6,10 @@ Little script, which will root your ASUS Zenfone 5.
 
 - ASUS Zenfone 5 (T00F/T00J) with WW-2.22.40.54 firmware
 
+## Data safety
+
+This script *will not* overwrite any of your data (files, photos, music, settings etc). It's totally safe.
+
 ## Requirements
 
 - adb
