@@ -15,7 +15,7 @@ Little script, which will root your ASUS Zenfone 5.
 
 If you're on linux, run `root.sh` script in terminal and follow instructions.
 
-    ./bash.sh
+    ./root.sh
 
 ## Usage for other systems
 
