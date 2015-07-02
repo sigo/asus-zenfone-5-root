@@ -70,6 +70,16 @@ I don't have time for develop scripts for other systems, but you can root your p
 
 All done, enjoy your rooted phone.
 
+## Enabling USB debugging mode
+
+1. Go to system **settings**.
+2. Click **about**.
+3. Open **software information**.
+4. Tap **build number** 7 times - until a pop-up hint informs you that you've entered the developer mode.
+5. Return to **settings**.
+6. Find and open **developer options**.
+7. Select **USB debugging** and click **ok**.
+
 ## Authors
 
 - Mateusz Jagiełło (http://sigo.pl)
