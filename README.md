@@ -23,7 +23,7 @@ Script **will overwrite**:
 
 ## Usage for linux
 
-If you're on linux, run `root.sh` script in terminal and follow instructions.
+If you're on linux, run `root.sh` script in terminal and follow instructions. Make sure that you have [enabled USB debugging mode](#enabling-usb-debugging-mode) in your phone.
 
     ./root.sh
 
@@ -33,7 +33,7 @@ I don't have time for develop scripts for other systems, but you can root your p
 
 1. Download [the rooting script](https://github.com/sigo/asus-zenfone-5-root/archive/master.zip) (about 53.4MiB).
 2. Extract downloaded package.
-3. Enable USB debugging mode in your phone (instructions below).
+3. [Enable USB debugging mode](#enabling-usb-debugging-mode) in your phone.
 4. Connect your phone with computer.
 5. Open terminal in extracted `asus-zenfone-5-root` directory (you don't need reboot your phone manually, just execute following commands).
 6. Reboot to bootloader
