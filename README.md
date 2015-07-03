@@ -21,7 +21,7 @@ If you're on linux, run `root.sh` script in terminal and follow instructions.
 
     ./root.sh
 
-## Usage for other systems
+## Usage for non-linux systems
 
 I don't have time for develop scripts for other systems, but you can root your phone manually.
 
