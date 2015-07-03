@@ -10,6 +10,12 @@ Little script, which will root your ASUS Zenfone 5.
 
 This script **will not overwrite any of your data** (files, photos, music, settings etc). It's totally safe.
 
+Script **will overwrite**:
+- dnx
+- ifwi
+- fastboot
+- recovery
+
 ## Requirements
 
 - adb
