@@ -56,7 +56,7 @@ I don't have time for develop scripts for other systems, but you can root your p
     fastboot reboot-bootloader
     ```
 
-9. Root phone
+9. Root phone (an error during this part is normal - just ignore it)
 
     ```
     fastboot flash recovery files/root/recovery.img
