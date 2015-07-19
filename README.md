@@ -36,27 +36,27 @@ I don't have time for develop scripts for other systems, but you can root your p
 3. [Enable USB debugging mode](#enabling-usb-debugging-mode) in your phone.
 4. Connect your phone with computer.
 5. Open terminal in extracted `asus-zenfone-5-root` directory (you don't need reboot your phone manually, just execute following commands).
-6. Reboot to bootloader
+6. Reboot to bootloader.
 
     ```
     adb reboot bootloader
     ```
 
-7. Unlock fastboot
+7. Unlock fastboot.
 
     ```
     fastboot flash fastboot files/root/fastboot.img
     fastboot reboot-bootloader
     ```
 
-8. Unlock bootloader (**this can take up to 3 minutes**, please be patient)
+8. Unlock bootloader (**this can take up to 3 minutes**, please be patient).
     ```
     fastboot flash dnx files/vanilla/dnx_fwr_ctp_a500cg.bin
     fastboot flash ifwi files/root/ifwi_ctp_a500cg.bin
     fastboot reboot-bootloader
     ```
 
-9. Root phone (**an error during this part is normal** - just ignore it)
+9. Root phone (**an error during this part is normal** - just ignore it).
 
     ```
     fastboot flash recovery files/root/recovery.img
@@ -64,7 +64,7 @@ I don't have time for develop scripts for other systems, but you can root your p
     adb reboot bootloader
     ```
 
-10. Restore vanilla files
+10. Restore vanilla files.
 
     ```
     fastboot flash fastboot files/vanilla/fastboot.img
