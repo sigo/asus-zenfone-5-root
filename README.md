@@ -25,7 +25,9 @@ Script **will overwrite**:
 
 If you're on linux, run `root.sh` script in terminal and follow instructions. Make sure that you have [enabled USB debugging mode](#enabling-usb-debugging-mode) in your phone.
 
-    ./root.sh
+```shell
+./root.sh
+```
 
 ## Usage for non-linux systems
 
@@ -38,41 +40,42 @@ I don't have time for develop scripts for other systems, but you can root your p
 5. Open terminal in extracted `asus-zenfone-5-root` directory (you don't need reboot your phone manually, just execute following commands).
 6. Reboot to bootloader.
 
-    ```
-    adb reboot bootloader
-    ```
+```shell
+adb reboot bootloader
+```
 
 7. Unlock fastboot.
 
-    ```
-    fastboot flash fastboot files/root/fastboot.img
-    fastboot reboot-bootloader
-    ```
+```shell
+fastboot flash fastboot files/root/fastboot.img
+fastboot reboot-bootloader
+```
 
 8. Unlock bootloader (**this can take up to 3 minutes**, please be patient).
-    ```
-    fastboot flash dnx files/vanilla/dnx_fwr_ctp_a500cg.bin
-    fastboot flash ifwi files/root/ifwi_ctp_a500cg.bin
-    fastboot reboot-bootloader
-    ```
+
+```shell
+fastboot flash dnx files/vanilla/dnx_fwr_ctp_a500cg.bin
+fastboot flash ifwi files/root/ifwi_ctp_a500cg.bin
+fastboot reboot-bootloader
+```
 
 9. Root phone (**an error during this part is normal** - just ignore it).
 
-    ```
-    fastboot flash recovery files/root/recovery.img
-    fastboot flash update files/root/dummy.zip
-    adb reboot bootloader
-    ```
+```shell
+fastboot flash recovery files/root/recovery.img
+fastboot flash update files/root/dummy.zip
+adb reboot bootloader
+```
 
 10. Restore vanilla files.
 
-    ```
-    fastboot flash fastboot files/vanilla/fastboot.img
-    fastboot flash recovery files/vanilla/recovery.img
-    fastboot flash dnx files/vanilla/dnx_fwr_ctp_a500cg.bin
-    fastboot flash ifwi files/vanilla/ifwi_ctp_a500cg.bin
-    fastboot reboot
-    ```
+```shell
+fastboot flash fastboot files/vanilla/fastboot.img
+fastboot flash recovery files/vanilla/recovery.img
+fastboot flash dnx files/vanilla/dnx_fwr_ctp_a500cg.bin
+fastboot flash ifwi files/vanilla/ifwi_ctp_a500cg.bin
+fastboot reboot
+```
 
 All done, enjoy your rooted phone.
 
