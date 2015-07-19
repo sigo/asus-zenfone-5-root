@@ -29,7 +29,7 @@ If you're on linux, run `root.sh` script in terminal and follow instructions. Ma
 ./root.sh
 ```
 
-## Usage for non-linux systems (Windows, Mac OS)
+## Usage for non-linux systems (Windows, Mac OS etc.)
 
 I don't have time for develop scripts for other systems, but you can root your phone manually. Your device will be rebooted a few times in whole process.
 
