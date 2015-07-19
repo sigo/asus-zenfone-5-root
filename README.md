@@ -25,11 +25,11 @@ Script **will overwrite**:
 
 If you're on linux, run `root.sh` script in terminal and follow instructions. Make sure that you have [enabled USB debugging mode](#enabling-usb-debugging-mode) in your phone.
 
-    ```shell
-    ./root.sh
-    ```
+```shell
+./root.sh
+```
 
-## Usage for non-linux systems
+## Usage for non-linux systems (Windows, Mac OS)
 
 I don't have time for develop scripts for other systems, but you can root your phone manually. Your device will be rebooted a few times in whole process.
 
