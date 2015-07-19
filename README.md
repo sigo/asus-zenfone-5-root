@@ -29,7 +29,7 @@ If you're on linux, run `root.sh` script in terminal and follow instructions. Ma
 
 ## Usage for non-linux systems
 
-I don't have time for develop scripts for other systems, but you can root your phone manually.
+I don't have time for develop scripts for other systems, but you can root your phone manually. Your device will be rebooted a few times in whole process.
 
 1. Download [the rooting script](https://github.com/sigo/asus-zenfone-5-root/archive/master.zip) (about 53.4MiB).
 2. Extract downloaded package.
@@ -49,14 +49,14 @@ I don't have time for develop scripts for other systems, but you can root your p
     fastboot reboot-bootloader
     ```
 
-8. Unlock bootloader (this can take up to 3 minutes, please be patient)
+8. Unlock bootloader (**this can take up to 3 minutes**, please be patient)
     ```
     fastboot flash dnx files/vanilla/dnx_fwr_ctp_a500cg.bin
     fastboot flash ifwi files/root/ifwi_ctp_a500cg.bin
     fastboot reboot-bootloader
     ```
 
-9. Root phone (an error during this part is normal - just ignore it)
+9. Root phone (**an error during this part is normal** - just ignore it)
 
     ```
     fastboot flash recovery files/root/recovery.img
