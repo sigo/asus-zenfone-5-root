@@ -7,7 +7,7 @@ echo "Whole process can take up to 10 minutes, please be patient"
 
 cd $(dirname "${0}")
 
-adb wait-for-devices
+adb wait-for-device
 adb reboot bootloader
 sleep 20
 
@@ -34,7 +34,7 @@ echo "--- log ---"
 fastboot flash recovery files/root/recovery.img
 sleep 5
 fastboot flash update files/root/dummy.zip
-adb wait-for-devices
+adb wait-for-device
 adb reboot bootloader
 echo "--- end log ---"
 sleep 20
